@@ -1,0 +1,29 @@
+{
+  "name": "hts221",
+  "version": "0.0.1",
+  "description": "a nodeJS library to interact with the barometric sensor of the Raspberry Pi sense-HAT",
+  "main": "index.js",
+  "keywords": [
+    "sense",
+    "hat",
+    "sensehat",
+    "hts221",
+    "rpi",
+    "raspberry",
+    "pi",
+    "raspberrypi"
+  ],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/resin-io-playground/hts221.git"
+	},
+  "jshintConfig": {
+    "esversion": 6,
+    "strict": true
+  },
+  "author": "Carlo Maria Curinga <carlo@resin.io>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "i2c-bus": "^1.2.2"
+  }
+}

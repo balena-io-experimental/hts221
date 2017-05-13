@@ -121,7 +121,7 @@ function humidityRead() {
   return data;
 }
 
-module.exports.get = humidityRead;
+module.exports.getHumidity = humidityRead;
 
 var HTS221_ADDR = 0x5F;
 
@@ -187,3 +187,5 @@ function getTemperatureFromHumidity() {
   return result;
 
 }
+
+module.exports.getTemperature = getTemperatureFromHumidity;

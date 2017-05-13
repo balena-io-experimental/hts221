@@ -1,6 +1,6 @@
 {
   "name": "hts221",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "a nodeJS library to interact with the barometric sensor of the Raspberry Pi sense-HAT",
   "main": "index.js",
   "keywords": [
